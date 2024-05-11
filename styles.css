@@ -34,16 +34,17 @@ img{vertical-align:middle}
 	color: #FFFFFF;
 	overflow-x: hidden;
 	width: 100%;
-	height: 60px;
-	background-color: #E89E33;
+	height: 100px;
+	background-color: #100018;
 }
 
 nav li {
 	max-width: 1900px;
 	float: left;
 	list-style-type: none;
-	padding-left: 40px;
+	padding-left: 150px;
 	font-size: 30px;
+	margin-top:30px;
 	
 }
 main {
@@ -60,7 +61,7 @@ aside {
 	float: left;
 	}
 footer {
-	width: 1900px;
+	max-width: 1900px;
 	height: 250px;
 	background:#33A6E9;
 	clear: both;
@@ -69,20 +70,20 @@ footer {
 
 header h1 {
 	text-align: center;
-	font-size: 45px;
+	font-size: 50px;
 	font-style: italic;
-	font-weight: 400;
+	font-weight: 1000;
 	line-height: normal;
 	text-transform: uppercase;
 	font-family: "Poor Richard", Ravie, Playbill, "Script MT Bold", "Old English Text MT", "Kristen ITC", "Juice ITC";
-	padding-top: 250px;
+	padding-top: 30px;
 	padding-right: px;
 	padding-bottom: 0px;
 	padding-left: 70px;
 	color: #F9F9F9;	
 	z-index: 1;
 	letter-spacing: 10px;
-	word-spacing: 10px;
+	word-spacing: 30px;
 }
 
 h2 {
@@ -98,7 +99,7 @@ line-height: normal;
 a:link {
 	text-decoration: none;
 	background-color: #00EBFF;
-	border: thin solid #FFC840;
+	border: thin solid #3D2F87;
 	width: 1000px;
 	padding-left: 3px;
 	padding-right: 3px;
@@ -109,16 +110,17 @@ a:link {
 }
 	a:hover{
 	text-decoration: underline;
-	background-color: #7B7878;
+	background-color: #C1EBF5;
 }
 	a:visited{
-	color: #F56A00;		
+	background-color: #00EBFF;
+	color: #212121;
 		
 	}
 	a:active{
-	color: #024F21;
+	background-color: #00EBFF;
+	color: #212121;
 	}
-
 
 nav ul {
 	list-style-type: none;
@@ -205,16 +207,56 @@ footer .smfoot {
 	padding-bottom: 0px;
 	padding-top: 0px;
 	margin-top: -100px;
-	word-spacing: 30px;
+	word-spacing: 75px;
+}
+.smfoot a:link{
+	text-align: center;
+	color: #212121;
+	background-color: #00EBFF;
+	border: thin double #00FF29;
+	padding: 15px;
+}
+
+.smfoot a:visited{
+	background-color: #00EBFF;
+	border: thin double #00FF29; 
+}
+
+.smfoot a:hover{
+	background-color: #78C4F0; 
+}
+.smfoot a:active{
+	background-color: #00EBFF;
+	
+	
 }
 footer .mail {
-	margin-left: 515px;
-	margin-top: 50px;
+	margin-left: 955px;
+	margin-top: -20px;
+}
+.mail a:link{
+	text-align: center;
+	color: #212121;
+	background-color: #00EBFF;
+	border: thin double #00FF29;
+	padding: 15px;
+}
+.mail a:visited{
+	background-color: #00EBFF;
+	border: thin double #00FF29;
+}
+
+.mail a:hover{
+	background-color: #78C4F0;
+	text-decoration:underline;
+}
+.mail a:active{
+	background-color: #00EBFF;		
 }
 footer .sitemap {
 	float: right;
 	margin-top: -150px;
-	margin-right: 50px;
+	margin-right: 300px;
 }
 .sitemap a:link {
 	background: none;
@@ -223,14 +265,47 @@ footer .sitemap {
 	color: #212121;
 	left: 300px;
 }
+.sitemap a:visited{
+	color: #513A19;
+	background: none;
+	border: none;
+}
+.sitemap a:hover{
+	text-decoration: underline;
+	background-color: #78C4F0;	
+}
+.sitemap a:active{
+	background: none;
+	border: none;
+}
 .sitemap ul li {
 	list-style-type: none;
 	margin-top: 15px;
+	font-size: larger;
+		
 }
 .logo {
-	margin-left: 870px;
-	margin-top: -130px;
+	margin-left: 1200px;
+	margin-top: -90px;
 	
+}
+
+.logo a:link{
+	background: none;
+	border: none;
+}
+.logo a:visited{ 
+	background: none;
+	border: none;
+	
+}
+.logo a:hover{
+	background: none;
+	border: none;
+}
+.logo a:active{
+	background: none;
+	border: none;
 }
 .card		{
 	width: 240px;
@@ -252,3 +327,7 @@ footer .sitemap {
 			display:block;
 			padding:10px;
 			}
+.trcorner {
+	margin-top: 10px;
+	margin-left: 1580px;
+}
